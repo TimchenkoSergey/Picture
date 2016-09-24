@@ -43,6 +43,28 @@
 	}
 
 	&__quotes {
-		
+		padding-top: 450px;
+		padding-left: 390px;
+
+		color: #fff;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 15px;
+		text-transform: uppercase;
+		letter-spacing: 5px;
+
+		transform: rotate(-90deg);
+	}
+
+	&__quote {
+		margin-top: -75px;
+		padding-right: 40px;
+		padding-bottom: 30px;
+
+		color: #fff;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 14px;
+		font-style: italic;
+		text-align: right;
+		line-height: 26px;
 	}
 }
