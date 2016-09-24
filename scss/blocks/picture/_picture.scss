@@ -1,0 +1,48 @@
+.picture {
+	width: 80%;
+	height: auto;
+	position: relative;
+	display: flex;
+	margin: auto;
+
+	&__image {
+		width: 50%;
+		padding-bottom: 410px;
+
+		background-image: url("../img/picture.jpg");
+	}
+
+	&__number {
+		max-width: 20px;
+		padding-left: 62px;
+		margin-top: 60px;
+
+		border-bottom: 1px solid #000;
+		
+		font-family: 'Open Sans', sans-serif;
+		font-style: italic;
+	}
+
+	&__text {
+		margin-top: -110px;
+		margin-left: -400px;
+		
+		color: #363636;
+		font-family: 'Oswald', sans-serif;
+		font-size: 50px;
+		font-weight: bold;
+		letter-spacing: 5px;
+
+		transform: rotate(-90deg);
+	}
+
+	&__right {
+		width: 50%;
+
+		background-color: #c2e1dc;
+	}
+
+	&__quotes {
+		
+	}
+}
