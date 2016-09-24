@@ -1,0 +1,28 @@
+.square {
+	width: 220px;
+	height: 130px;
+	position: absolute;
+	top: 360px;
+	left: 330px;
+
+	border: 1px solid #fff;
+
+	transition: 0.3s;
+
+	&:hover {
+		border: 1px solid #363636;
+	}
+
+	&__number {
+		margin: 0;
+		padding-left: 180px;
+		padding-top: 95px;
+
+		color: #fff;
+		font-family: 'Open Sans', sans-serif;
+
+		&:hover {
+			color: #363636;
+		}
+	}
+}

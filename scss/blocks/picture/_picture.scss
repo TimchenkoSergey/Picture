@@ -4,12 +4,21 @@
 	position: relative;
 	display: flex;
 	margin: auto;
+	overflow: hidden;
+
+	box-shadow: 10px 10px 90px 0px #757456;
 
 	&__image {
 		width: 50%;
 		padding-bottom: 410px;
 
 		background-image: url("../img/picture.jpg");
+
+		transition: 0.3s;
+
+		&:hover {
+			transform: scale(1.1);
+		}
 	}
 
 	&__number {
@@ -53,12 +62,18 @@
 		letter-spacing: 5px;
 
 		transform: rotate(-90deg);
+
+		transition: 0.5s;
+
+		&:hover {
+			transform: rotate(-85deg);
+		}
 	}
 
 	&__quote {
 		margin-top: -75px;
 		padding-right: 40px;
-		padding-bottom: 30px;
+		padding-bottom: 25px;
 
 		color: #fff;
 		font-family: 'Open Sans', sans-serif;
@@ -66,5 +81,24 @@
 		font-style: italic;
 		text-align: right;
 		line-height: 26px;
+	}
+
+	&__main-text {
+		position: absolute;
+		top: -5px;
+		left: 500px;
+
+		color: #fff;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 47px;
+		font-weight: bold;
+		text-transform: uppercase;
+		letter-spacing: 30px;
+		
+		transition: 0.5s;
+
+		&:hover {
+			letter-spacing: 60px;
+		}
 	}
 }
