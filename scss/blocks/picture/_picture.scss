@@ -1,9 +1,10 @@
 .picture {
 	width: 80%;
+	max-width: 1060px;
 	height: auto;
-	position: relative;
-	display: flex;
 	margin: auto;
+	display: flex;
+	position: relative;
 	overflow: hidden;
 
 	box-shadow: 10px 10px 90px 0px #757456;
